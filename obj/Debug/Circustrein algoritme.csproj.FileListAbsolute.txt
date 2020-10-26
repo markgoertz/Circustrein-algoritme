@@ -1,0 +1,10 @@
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein algoritme.csprojAssemblyReference.cache
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein_algoritme.Form1.resources
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein_algoritme.Properties.Resources.resources
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein algoritme.csproj.GenerateResource.cache
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein algoritme.csproj.CoreCompileInputs.cache
+D:\Algoritme Opdrachten S2\Circustrein algoritme\bin\Debug\Circustrein algoritme.exe.config
+D:\Algoritme Opdrachten S2\Circustrein algoritme\bin\Debug\Circustrein algoritme.exe
+D:\Algoritme Opdrachten S2\Circustrein algoritme\bin\Debug\Circustrein algoritme.pdb
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein algoritme.exe
+D:\Algoritme Opdrachten S2\Circustrein algoritme\obj\Debug\Circustrein algoritme.pdb
