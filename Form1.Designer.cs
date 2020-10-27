@@ -76,6 +76,7 @@
             this.Orginisebtn.TabIndex = 29;
             this.Orginisebtn.Text = "Get wagons";
             this.Orginisebtn.UseVisualStyleBackColor = false;
+            this.Orginisebtn.Click += new System.EventHandler(this.Orginisebtn_Click);
             // 
             // groupBox2
             // 

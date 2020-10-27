@@ -12,7 +12,9 @@ namespace Circustrein_algoritme
 {
     public partial class Form1 : Form
     {
-        public List<Animal> Animals = new List<Animal>();
+        private readonly List<Animal> Animals = new List<Animal>();
+        private readonly Train train = new Train();
+
         public Form1()
         {
             InitializeComponent();
@@ -20,7 +22,10 @@ namespace Circustrein_algoritme
 
         private void Wagonlist_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            int selectedWagon = Wagonlist.SelectedIndex;
+            List<Animal> AnimalInWagon = train.AnimalWagons[selectedWagon].Animals;
+            string toDisplay = string.Join(Environment.NewLine, AnimalInWagon);
+            MessageBox.Show(toDisplay);
         }
 
         private void AddAnimalbtn_Click(object sender, EventArgs e)
@@ -49,7 +54,19 @@ namespace Circustrein_algoritme
 
                 Animal animals = new Animal(size, isCarnivore);
                 Animals.Add(animals);
+                
                 Animallist.Items.Add(animals);
+            }
+        }
+
+        private void Orginisebtn_Click(object sender, EventArgs e)
+        {
+            
+            train.FillWagon(Animals);
+            Wagonlist.Items.Clear();
+            foreach (Wagon selectedWagon in train.AnimalWagons)
+            {
+                Wagonlist.Items.Add(selectedWagon);
             }
         }
     }
