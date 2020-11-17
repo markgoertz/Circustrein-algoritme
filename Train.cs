@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Circustrein_algoritme
 {
-    public class Train
+    class Train
     {
        public List<Wagon> AnimalWagons = new List<Wagon>();
         public Wagon NewAnimalWagon(Animal animal)

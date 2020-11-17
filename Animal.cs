@@ -19,6 +19,7 @@ namespace Circustrein_algoritme
          public Sizes Size;
          public bool IsCarnivore { get; private set; }
 
+        
          public Animal(Sizes size, bool iscarnivore)
          {
            Size = size;

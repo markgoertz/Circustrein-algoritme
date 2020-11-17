@@ -10,9 +10,10 @@ namespace Circustrein_algoritme
     {
         public List<Animal> Animals = new List<Animal>();
         public int WagonSpace { get; private set; } = 10;
+
         public bool TryAddAnimal(Animal animal)
         {
-            if (animal.Size > BiggestCarnivore() && (int)animal.Size <= WagonSpace)
+            if (animal.Size > CheckForCarnivoreRisk() && (int)animal.Size <= WagonSpace)
             {
                 Animals.Add(animal);
                 WagonSpace -= (int)animal.Size;
@@ -23,18 +24,23 @@ namespace Circustrein_algoritme
                 return false;
             }
         }
-        public Animal.Sizes BiggestCarnivore()
-        {
-            List<Animal> Carnivores = Animals.Where(Animals => Animals.IsCarnivore).ToList();
 
-            if (Carnivores.Count == 0)
-            {
-                return Animal.Sizes.none;
-            }
-            else
+        public Animal.Sizes CheckForCarnivoreRisk()
+        {
+            List<Animal> Carnivores = Animals.Where(Animals => Animals.IsCarnivore)
+                                             .OrderByDescending(Animal => Animal.IsCarnivore)
+                                             .ThenByDescending(Animal => (int)Animal.Size)
+                                             .ToList();
+
+            if (Carnivores.Count != 0)
             {
                 return Carnivores.First().Size;
             }
+            else 
+            {
+                return Animal.Sizes.none;
+            }
+
         }
     }
 }
