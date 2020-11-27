@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Circustrein_algoritme
 {
-    class Train
+    public class Train
     {
-       public List<Wagon> AnimalWagons = new List<Wagon>();
+        public List<Wagon> AnimalWagons = new List<Wagon>();
+        private readonly AnimalCollection animalcollection = new AnimalCollection();
+        public List<Wagon> GetWagons()
+        {
+            return AnimalWagons;
+        }
         public Wagon NewAnimalWagon(Animal animal)
         {
             Wagon NewAnimalWagon = new Wagon();
@@ -19,26 +24,30 @@ namespace Circustrein_algoritme
 
         public void FillWagon(List<Animal> Animal)
         {
-            AnimalCollection animalcollection = new AnimalCollection();
-
+            //Sort the parameter by IsCarnivore and then by Size and returns it back into a list.
             Animal = animalcollection.SortAnimals(Animal);
+
+            //Takes out every individual animal from List(Animal) and checks the animal with the if/else statements.
             foreach (Animal SelectedAnimal in Animal)
             {
-                if (SelectedAnimal.IsCarnivore)  
+                //If the selected individual animal is a Carnivore. Then the method redirrect this animal to the method NewAnimalWagon.
+                if (SelectedAnimal.IsCarnivore)
                 {
                     NewAnimalWagon(SelectedAnimal);
                 }
+
+                //The selected individual Animal is a herbivore. 
                 else
                 {
-                    bool AnimalHasPlace = false;
+                    bool InWagonFitsAnimal = false;
 
                     foreach (Wagon SelectedWagon in AnimalWagons)
                     {
-                        AnimalHasPlace = SelectedWagon.TryAddAnimal(SelectedAnimal);
-                        if (AnimalHasPlace) break;
+                        InWagonFitsAnimal = SelectedWagon.TryAddAnimal(SelectedAnimal);
+                        if (InWagonFitsAnimal) break;
                     }
 
-                    if (!AnimalHasPlace)
+                    if (!InWagonFitsAnimal)
                     {
                         NewAnimalWagon(SelectedAnimal);
                     }
