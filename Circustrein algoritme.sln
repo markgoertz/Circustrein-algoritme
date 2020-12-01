@@ -5,10 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circustrein algoritme", "Circustrein algoritme.csproj", "{7AF7FB5E-4E30-4110-AC67-858F1DFAE020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circustrein Tests", "..\Circustrein Tests\Circustrein Tests.csproj", "{6BC2FD5D-F556-4744-8F12-30B756BEDAB9}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7AF7FB5E-4E30-4110-AC67-858F1DFAE020} = {7AF7FB5E-4E30-4110-AC67-858F1DFAE020}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circustrein Tests", "Circustrein Tests\Circustrein Tests.csproj", "{C366ACF0-3B63-4EA6-B389-C8946FB2F52C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +17,10 @@ Global
 		{7AF7FB5E-4E30-4110-AC67-858F1DFAE020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AF7FB5E-4E30-4110-AC67-858F1DFAE020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AF7FB5E-4E30-4110-AC67-858F1DFAE020}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BC2FD5D-F556-4744-8F12-30B756BEDAB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BC2FD5D-F556-4744-8F12-30B756BEDAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BC2FD5D-F556-4744-8F12-30B756BEDAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BC2FD5D-F556-4744-8F12-30B756BEDAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C366ACF0-3B63-4EA6-B389-C8946FB2F52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C366ACF0-3B63-4EA6-B389-C8946FB2F52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C366ACF0-3B63-4EA6-B389-C8946FB2F52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C366ACF0-3B63-4EA6-B389-C8946FB2F52C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

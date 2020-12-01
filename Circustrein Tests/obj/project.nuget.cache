@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Uyr0/qFo9s+d2rv4gx7ubMg2dzLvyZaHuL4ofOnzpq4XE8/2CZCKP4YghIrTA6UaRRuAxzO1fCPzwdhz+JxCDg==",
+  "dgSpecHash": "P+oqzRgjQ1rU5UnfLFEVvUco0arprpYhpBkbYtYa5XRipu9w0O6SGd4/w1zmauKDIXJUP6y7xc3+zYt2mJeFDA==",
   "success": true,
-  "projectFilePath": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj",
+  "projectFilePath": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\goert\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\goert\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

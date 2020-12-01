@@ -5717,8 +5717,8 @@
     },
     "Circustrein algoritme/1.0.0": {
       "type": "project",
-      "path": "../Circustrein algoritme/Circustrein algoritme.csproj",
-      "msbuildProject": "../Circustrein algoritme/Circustrein algoritme.csproj"
+      "path": "../Circustrein algoritme.csproj",
+      "msbuildProject": "../Circustrein algoritme.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5737,11 +5737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj",
+      "projectUniqueName": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj",
       "projectName": "Circustrein Tests",
-      "projectPath": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj",
+      "projectPath": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj",
       "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-      "outputPath": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\obj\\",
+      "outputPath": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj": {}
+    "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj": {}
   },
   "projects": {
     "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein algoritme.csproj": {
@@ -14,14 +14,14 @@
         "net472": {}
       }
     },
-    "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj": {
+    "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj",
+        "projectUniqueName": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj",
         "projectName": "Circustrein Tests",
-        "projectPath": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\Circustrein Tests.csproj",
+        "projectPath": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\Circustrein Tests.csproj",
         "packagesPath": "C:\\Users\\goert\\.nuget\\packages\\",
-        "outputPath": "D:\\Algoritme Opdrachten S2\\Circustrein Tests\\obj\\",
+        "outputPath": "D:\\Algoritme Opdrachten S2\\Circustrein algoritme\\Circustrein Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
